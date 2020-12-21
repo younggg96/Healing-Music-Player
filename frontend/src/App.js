@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
-    return (
-        <div>
-            Hello Healing Music Player
-        </div>
-    );
+  return (
+    <Router>
+      <Switch>
+      <Route exact path="/" component={HomePage} />
+      </Switch>
+    </Router>
+  );
 };
 
 export default App;
