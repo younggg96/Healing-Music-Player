@@ -8,12 +8,12 @@ import "../css/app.css";
 const useStyles = makeStyles((theme) => ({
   sideBg: {
     backgroundColor: theme.palette.primary.main,
-    borderRadius: "12px 0 0 24px",
-    height: 675,
+    borderRadius: "12px 0 0 0",
+    height: 725,
   },
   mainBg: {
     borderRadius: "0 12px 24px 0",
-    height: 675,
+    height: 725,
   },
   playerBg: {
     backgroundColor: theme.palette.primary.dark,
@@ -32,15 +32,12 @@ const HomePage = () => {
       justify="space-between"
       alignItems="center"
       className="page"
-      style={{
-        backgroundColor: "primary.dark"
-      }}
     >
       <Grid container item>
-        <Grid item xs={3} className={classes.sideBg}>
+        <Grid item xs={2} className={classes.sideBg}>
           <SideBar />
         </Grid>
-        <Grid item xs={9} className={classes.mainBg}>
+        <Grid item xs={10} className={classes.mainBg}>
           <MainContent />
         </Grid>
       </Grid>

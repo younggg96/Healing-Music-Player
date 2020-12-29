@@ -10,6 +10,7 @@ const theme = createMuiTheme({
     secondary: {
       main: "#FA00C8",
     },
+    
   },
   typography: {
     fontFamily: "Comfortaa",
