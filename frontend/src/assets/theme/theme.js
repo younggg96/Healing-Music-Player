@@ -10,11 +10,24 @@ const theme = createMuiTheme({
     secondary: {
       main: "#FA00C8",
     },
-    
+    text: {
+      main: "#FFFFFF",
+      light: "#FFFFFE",
+      dark: "#646779",
+    }
   },
   typography: {
     fontFamily: "Comfortaa",
     fontSize: 14,
+  },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 960,
+      lg: 1280,
+      xl: 1600,
+    },
   },
 });
 

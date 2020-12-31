@@ -48,11 +48,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="baseline" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <FontAwesomeIcon icon={faHome} size="lg" color="#fff" />
+                  <FontAwesomeIcon icon={faHome} size="lg" color="#ffffff" />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Home
                     </Box>
                   </Typography>
@@ -64,11 +64,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="baseline" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <FontAwesomeIcon icon={faCompactDisc} size="lg" color="#fff" />
+                  <FontAwesomeIcon icon={faCompactDisc} size="lg" color="#ffffff" />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Playlists
                     </Box>
                   </Typography>
@@ -80,11 +80,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="baseline" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <FontAwesomeIcon icon={faMicrophone} size="lg" color="#fff" />
+                  <FontAwesomeIcon icon={faMicrophone} size="lg" color="#ffffff" />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Artists
                     </Box>
                   </Typography>
@@ -96,11 +96,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="center" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <PlaylistPlayIcon style={{ color: "#fff" }} />
+                  <PlaylistPlayIcon style={{ color: "#ffffff" }} />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Albums
                     </Box>
                   </Typography>
@@ -112,11 +112,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="center" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <MusicNoteIcon style={{ color: "#fff" }} />
+                  <MusicNoteIcon style={{ color: "#ffffff" }} />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Songs
                     </Box>
                   </Typography>
@@ -135,11 +135,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="center" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <StoreIcon style={{ color: "#fff" }} />
+                  <StoreIcon style={{ color: "#ffffff" }} />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Music Store
                     </Box>
                   </Typography>
@@ -151,11 +151,11 @@ const SideBar = () => {
             <ButtonBase className={classes.btn}>
               <Grid container justify="center" alignItems="center" className={classes.btnContent}>
                 <Grid item xs={2}>
-                  <SettingsIcon style={{ color: "#fff" }} />
+                  <SettingsIcon style={{ color: "#ffffff" }} />
                 </Grid>
                 <Grid item xs>
                   <Typography component="span" variant="body1" align="left">
-                    <Box color="#fff">
+                    <Box color="text.main">
                       Setting
                     </Box>
                   </Typography>
