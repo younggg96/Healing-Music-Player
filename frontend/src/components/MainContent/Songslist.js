@@ -15,7 +15,16 @@ const arr = [0, 1, 2, 3, 4, 5];
 
 const useStyles = makeStyles((theme) => ({
   item: {
-    // margin: theme.spacing(2, 0)
+    borderRadius: theme.shape.borderRadius,
+    padding: "10px 0",
+    transitionDuration: 500,
+    '&:hover': {
+      backgroundColor: "#0F1B41",
+    },
+  },
+  itemImg: {
+    display: 'flex',
+    justifyContent: "center",
   },
   songList: {
     // padding: theme.spacing(2, 6),
@@ -27,12 +36,13 @@ const SongItem = () => {
 
   return (
     <React.Fragment>
-      <Grid container alignItems="center" justify="space-between">
-        <Grid item container xs className={classes.item}>
-          <Grid item xs={3}>
+      <Grid container alignItems="center" alignContent="center" justify="space-between" className={classes.item}>
+        <Grid item container xs spacing={2}>
+          <Grid item xs={3} className={classes.itemImg}>
             <img
               src={img}
-              width="55px"
+              width="50px"
+              height="50px"
               alt="avatar"
               style={{ borderRadius: "50%" }}
             />
@@ -69,9 +79,9 @@ const SongItem = () => {
               </Box>
             </Typography>
           </Grid>
-          <Grid item xs={5} align="right">
+          <Grid item xs={6} align="center">
             <IconButton>
-              <QueueIcon style={{ color: "#7E8599" }} />
+              <QueueIcon style={{ color: "#7E8599", fontSize: "22px" }} />
             </IconButton>
           </Grid>
         </Grid>
