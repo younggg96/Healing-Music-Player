@@ -10,6 +10,9 @@ import "../../css/app.css";
 import Songslist from "./Songslist";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import SearchBar from "./SearchBar";
+import PopularArtists from "./PopularArtists";
+import UserInfo from "./UserInfo";
+import Playlists from "./Playlists";
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -18,7 +21,10 @@ const useStyles = makeStyles((theme) => ({
   },
   listTitle: {
     padding: theme.spacing(1, 2),
-  }
+  },
+  contentRight: {
+    padding: theme.spacing(2),
+  },
 }));
 
 const MainContent = () => {
@@ -45,7 +51,15 @@ const MainContent = () => {
           </Grid>
           <Songslist />
         </Grid>
-        <Grid item xs className="albums-bg"></Grid>
+        <Grid item container xs={6} className={classes.contentRight} direction="column" justify="space-around">
+          <Grid item xs>
+            <UserInfo />
+          </Grid>
+          <Grid item xs style={{padding: "0 16px 40px 16px"}}>
+            <PopularArtists />
+            <Playlists />
+          </Grid>
+        </Grid>
       </Grid>
     </React.Fragment>
   );

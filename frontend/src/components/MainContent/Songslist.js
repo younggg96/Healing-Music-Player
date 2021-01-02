@@ -39,13 +39,7 @@ const SongItem = () => {
       <Grid container alignItems="center" alignContent="center" justify="space-between" className={classes.item}>
         <Grid item container xs spacing={2}>
           <Grid item xs={3} className={classes.itemImg}>
-            <img
-              src={img}
-              width="50px"
-              height="50px"
-              alt="avatar"
-              style={{ borderRadius: "50%" }}
-            />
+            <img src={img} width="50px" height="50px" alt="avatar" style={{ borderRadius: "50%" }} />
           </Grid>
           <Grid
             item
