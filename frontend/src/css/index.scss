@@ -43,10 +43,20 @@ input {
   }
 }
 
-.makeStyles-gridList-75 {
-  margin: 0 !important;
+// .makeStyles-gridList-75 {
+//   margin: 0 !important;
+// }
+
+// .makeStyles-gridList-104 {
+//   margin: 0 !important;
+// }
+
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-.makeStyles-gridList-104 {
-  margin: 0 !important;
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 5px;  /* Firefox */
 }

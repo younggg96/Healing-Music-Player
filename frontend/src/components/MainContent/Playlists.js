@@ -63,7 +63,7 @@ const Playlists = () => {
                 </Grid>
             </Grid>
             <div style={{padding: "0 8px"}}>
-                <GridList className={classes.gridList} cols={2.5}>
+                <GridList className={classes.gridList} cols={2.8}>
                     {arr.map((item) => {
                         return (
                             <GridListTile style={{ height: 100 }}>

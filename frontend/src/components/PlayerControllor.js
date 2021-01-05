@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import ReactJkMusicPlayer from "react-jinke-music-player";
+import "react-jinke-music-player/assets/index.css";
 
 const PlayerControllor = () => {
-    return (
-        <div>
-            PlayerControllor
-        </div>
-    );
+  return (
+    <div>
+      <ReactJkMusicPlayer />
+    </div>
+  );
 };
 
 export default PlayerControllor;

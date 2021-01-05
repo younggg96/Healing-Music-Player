@@ -26,6 +26,11 @@
   height: 725px;
   background: rgb(13,37,75);
   background: linear-gradient(90deg, rgba(13,37,75,1) 22%, rgba(42,68,96,0.9108018207282913) 100%);
+  /* background-image: url('../assets/img/artistic-album-cover-demp.jpg'); */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover;
+  object-position: center center */
 }
 
 .albums-bg {
