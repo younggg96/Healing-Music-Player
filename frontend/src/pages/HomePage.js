@@ -2,7 +2,7 @@ import { Grid, makeStyles } from "@material-ui/core";
 import React from "react";
 import MainContent from "../components/MainContent/MainContent";
 import SideBar from "../components/SideBar";
-import PlayerControllor from "../components/PlayerControllor";
+import PlayerControllor from "../components/PlayerControllor/PlayerControllor";
 import "../css/app.css";
 
 const useStyles = makeStyles((theme) => ({
