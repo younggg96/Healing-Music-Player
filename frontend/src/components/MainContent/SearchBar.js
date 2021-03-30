@@ -2,10 +2,12 @@ import { Grid, InputBase, makeStyles } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import React from "react";
 
+import '../../css/mainContent.scss';
+
 const useStyles = makeStyles((theme) => ({
   search: {
     borderRadius: theme.shape.borderRadius,
-    padding: theme.spacing(1, 2),
+    padding: theme.spacing(1.5, 2),
     margin: theme.spacing(2, 0),
     transitionDuration: 500,
     '&:hover': {
@@ -29,8 +31,9 @@ const SearchBar = () => {
           </Grid>
           <Grid item xs>
             <InputBase
+              className="search-input"
               placeholder="Search for songs, artists…"
-              style={{ color: "#ffffff" }}
+              style={{ color: "#ffffff"}}
             />
           </Grid>
         </Grid>
