@@ -35,7 +35,7 @@ const HomePage = () => {
       alignItems="center"
       className="page"
     >
-      <Grid container item>
+      <Grid container xs item>
         <Grid item xs={2} className={classes.sideBg}>
           <SideBar />
         </Grid>
